@@ -4,5 +4,5 @@ services:
     build: ./
     image: boringproxy
     ports:
-      - "80:80"
-      - "443:443"
+      - "51080:80"
+      - "51443:443"
